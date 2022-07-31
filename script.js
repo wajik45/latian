@@ -1,4 +1,4 @@
-alert ('tebak angka');
+alert ('tebak angka 1 - 5');
 alert ('kalo salah angka jawaban berubah');
 var ulang = 0;
 while (ulang < 5) {
