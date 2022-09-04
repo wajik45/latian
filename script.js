@@ -6,6 +6,12 @@ while (ulang < 5) {
 	var bot = Math.random();
 	var hasil = '';
 
+	if (gua) {
+		console.log('ok');
+	} else {
+		ulang = 5;
+	}
+
 	if (bot <= 0.20) {
 		hasil = '1';
 	} else if (bot >= 0.20 && bot <=0.40) {
@@ -32,7 +38,7 @@ while (ulang < 5) {
 		} else if (ulang == 4) {
 			alert ('SALAH \nSISA 1');
 		} else {
-			alert ('SALAH \nSISA 0 GAME OVER');
+			alert ('KALAH \nSISA 0 GAME OVER');
 			ulang = confirm('coba lagi?');
 			if (ulang == false) {
 				ulang = 5;
@@ -49,7 +55,7 @@ while (ulang < 5) {
 		} else if (ulang == 4) {
 			alert ('SALAH \nSISA 1');
 		} else {
-			alert ('SALAH \nSISA 0 GAME OVER');
+			alert ('KALAH \nSISA 0 GAME OVER');
 			ulang = confirm('coba lagi?');
 			if (ulang == false) {
 				ulang = 5;
